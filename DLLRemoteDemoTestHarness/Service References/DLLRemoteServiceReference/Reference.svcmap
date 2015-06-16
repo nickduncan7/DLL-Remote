@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="04ee1957-6eef-4902-8045-0a571ce9c159" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:39777/DLLRemoteWebService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="DLLRemoteWebService2.xsd" MetadataType="Schema" ID="8f063dcc-583e-435e-87f8-dc400f8beb9a" SourceId="1" SourceUrl="http://localhost:39777/DLLRemoteWebService.svc?xsd=xsd2" />
+    <MetadataFile FileName="DLLRemoteWebService.xsd" MetadataType="Schema" ID="45f62a6e-7742-4420-bc84-279dfa3b5b9a" SourceId="1" SourceUrl="http://localhost:39777/DLLRemoteWebService.svc?xsd=xsd0" />
+    <MetadataFile FileName="DLLRemoteWebService5.xsd" MetadataType="Schema" ID="534b066e-91ba-4149-aa9f-80eef9b8f294" SourceId="1" SourceUrl="http://localhost:39777/DLLRemoteWebService.svc?xsd=xsd3" />
+    <MetadataFile FileName="DLLRemoteWebService.disco" MetadataType="Disco" ID="ce84dae5-bed5-486f-810c-b4136ce578e5" SourceId="1" SourceUrl="http://localhost:39777/DLLRemoteWebService.svc?disco" />
+    <MetadataFile FileName="DLLRemoteWebService4.xsd" MetadataType="Schema" ID="af4e727b-741b-471e-97c7-58637845ad72" SourceId="1" SourceUrl="http://localhost:39777/DLLRemoteWebService.svc?xsd=xsd1" />
+    <MetadataFile FileName="DLLRemoteWebService.wsdl" MetadataType="Wsdl" ID="bce5cc3d-1170-41aa-a774-a9b7cbf42ad1" SourceId="1" SourceUrl="http://localhost:39777/DLLRemoteWebService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
